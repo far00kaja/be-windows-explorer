@@ -5,7 +5,6 @@ export const getAllParentDirectoryUseCase = async (
 ): Promise<any> => {
   const dir = await DirectoryRepository.getAllParent(parent);
   const getParent = await DirectoryRepository.getById(parent);
-  console.log("getParent:", getParent);
   return {
     detail: dir,
     parent: {
