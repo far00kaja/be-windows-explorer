@@ -13,7 +13,7 @@ DB_NAME=db_windows_explorer2
 
 Untuk memulai aplikasi ini silahkan lakukan prompt berikut
 ```bash
-bun run install
+bun install
 ```
 
 ## Development
